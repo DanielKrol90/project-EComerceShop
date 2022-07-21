@@ -27,7 +27,7 @@ h3 {
     color: #222;
 }
 h4 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -188,3 +188,55 @@ p {
 #features .fe-box:nth-child(6) h4 {
     background-color: #ebbce2;
 }
+
+/* ! SECTION PRODUCTS */
+
+#product {
+    text-align: center;
+}
+
+#product .product-container {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.3);
+    transition: 0.2s ease;
+}
+
+#product .product-container:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1)
+}
+
+#product .product-container img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product .product-container .product-description {
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product .product-container .product-description span {
+    color: #91d6ec;
+    font-size: 16px;
+}
+
+#product .product-container .product-description h4 {
+    padding-top: 8px;
+    color: 1a1a1a;
+    font-size: 16px;
+}
+
+#product .product-container .product-description h4:nth-child(4) {
+    color: #088178;
+}
+
+#product .product-container .product-description i {
+    font-size: 16px;
+    color: #ffe524;
+}
+
