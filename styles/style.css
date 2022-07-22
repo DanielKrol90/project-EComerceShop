@@ -329,21 +329,21 @@ button.btn-secondary {
     color: red;
 }
 
-/*  ! SECTION CLASS BANNERS */
+/*  ! SECTION MAIN BANNERS */
 
-#class-banners {
+#main-banners {
     display: flex;
     justify-content: space-around;
 }
 
-#class-banners .banners-box {
+#main-banners .banners-box {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     background-image: url(/images/banner/b17.jpg);
-    min-width: 580px;
+    min-width: 45%;
     margin: 20px;
     height: 40vh;
     background-size: cover;
@@ -351,25 +351,29 @@ button.btn-secondary {
     padding: 30px;
 }
 
-#class-banners h4 {
+#main-banners h4 {
     color: #fff;
     font-size: 20px;
     font-weight: 300;
 }
 
-#class-banners h3 {
+#main-banners h3 {
     color: #fff;
     font-size: 28px;
     font-weight: 600;
 }
 
-#class-banners span {
+#main-banners span {
     color: #fff;
     font-size: 16px;
     font-weight: 500;
 }
 
-#class-banners .banners-box button:hover {
+#main-banners .banners-box button:hover {
     background: #088178;
     border: 1px solid #088178;
+}
+
+#main-banners .banner-box2 {
+    background-image: url("/images/banner/b10.jpg");
 }
