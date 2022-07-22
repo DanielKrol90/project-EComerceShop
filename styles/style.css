@@ -63,6 +63,23 @@ button.btn-primary:hover {
     color: #fff;
 }
 
+button.btn-secondary {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+
+
 /* ! HEADER STYLE */
 
 .logo {
@@ -313,3 +330,46 @@ button.btn-primary:hover {
 }
 
 /*  ! SECTION CLASS BANNERS */
+
+#class-banners {
+    display: flex;
+    justify-content: space-around;
+}
+
+#class-banners .banners-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(/images/banner/b17.jpg);
+    min-width: 580px;
+    margin: 20px;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#class-banners h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#class-banners h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#class-banners span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#class-banners .banners-box button:hover {
+    background: #088178;
+    border: 1px solid #088178;
+}
