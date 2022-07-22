@@ -179,10 +179,13 @@ button.btn-secondary {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
 }
 
 #features .fe-box {
     width: 180px;
+    height: 200px;
     text-align: center;
     padding: 25px 15px;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.1);
@@ -206,6 +209,7 @@ button.btn-secondary {
     border-radius: 4px;
     color: #088178;
     background-color: #fddddd;
+    font-size: 16px;
 }
 
 #features .fe-box:nth-child(2) h4 {
@@ -234,7 +238,7 @@ button.btn-secondary {
 #product .product-container {
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 20px;
     flex-wrap: wrap;
 }
@@ -382,3 +386,100 @@ background-image: url("/images/banner/b17.jpg");
 }
 
 /*! SECTION SUB BANNERS */
+
+#sub-banners {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+
+#sub-banners .banners-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 29%;
+    margin: 20px;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#sub-banners h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#sub-banners h2 {
+    color: #ff998e;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#sub-banners .img-box3 {
+    background-image: url("/images/banner/b7.jpg");
+}
+
+#sub-banners .img-box4 {
+    background-image: url("/images/banner/b4.jpg");
+}
+
+#sub-banners .img-box5 {
+    background-image: url("/images/banner/b18.jpg");
+}
+
+#signup-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("/images/banner/b14.png");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+}
+
+#signup-banner h3 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#signup-banner p {
+    color: #818ea0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#signup-banner span {
+    color: #edbe51;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#signup-banner form {
+    display: flex;
+    width: 40%;
+}
+
+#signup-banner input {
+    height: 3rem;
+    padding: 0 1.2rem;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#signup-banner button {
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+}
