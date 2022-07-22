@@ -342,7 +342,6 @@ button.btn-secondary {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(/images/banner/b17.jpg);
     min-width: 45%;
     margin: 20px;
     height: 40vh;
@@ -374,6 +373,12 @@ button.btn-secondary {
     border: 1px solid #088178;
 }
 
-#main-banners .banner-box2 {
+#main-banners .img-box1 {
+background-image: url("/images/banner/b17.jpg");
+}
+
+#main-banners .img-box2 {
     background-image: url("/images/banner/b10.jpg");
 }
+
+/*! SECTION SUB BANNERS */
