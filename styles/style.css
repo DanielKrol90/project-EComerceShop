@@ -139,7 +139,7 @@ button.btn-secondary {
 /*! SECTION LEFT SIDE TEXT */
 
 #left-side-text {
-    background-image: url("images/header.png");
+    background-image: url("./images/header.png");
     height: 90vh;
     width: 100%;
     background-size: cover;
