@@ -160,7 +160,7 @@ button.btn-secondary {
 }
 
 #left-side-text button {
-    background-image: url("images/button.png");
+    background-image: url("../images/button.png");
     background-color: transparent;
     color: #088178;
     border: 0;
@@ -311,7 +311,7 @@ button.btn-secondary {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("images/banner/b2.jpg");
+    background-image: url("../images/banner/b2.jpg");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -378,11 +378,11 @@ button.btn-secondary {
 }
 
 #main-banners .img-box1 {
-background-image: url("images/banner/b17.jpg");
+background-image: url("../images/banner/b17.jpg");
 }
 
 #main-banners .img-box2 {
-    background-image: url("images/banner/b10.jpg");
+    background-image: url("../images/banner/b10.jpg");
 }
 
 /*! SECTION SUB BANNERS */
@@ -421,15 +421,15 @@ background-image: url("images/banner/b17.jpg");
 }
 
 #sub-banners .img-box3 {
-    background-image: url("images/banner/b7.jpg");
+    background-image: url("../images/banner/b7.jpg");
 }
 
 #sub-banners .img-box4 {
-    background-image: url("images/banner/b4.jpg");
+    background-image: url("../images/banner/b4.jpg");
 }
 
 #sub-banners .img-box5 {
-    background-image: url("images/banner/b18.jpg");
+    background-image: url("../images/banner/b18.jpg");
 }
 
 #signup-banner {
@@ -437,7 +437,7 @@ background-image: url("images/banner/b17.jpg");
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url("images/banner/b14.png");
+    background-image: url("../images/banner/b14.png");
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color: #041e42;
