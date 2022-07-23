@@ -136,6 +136,15 @@ button.btn-secondary {
     left: 20px;
 }
 
+#mobile-menu {
+    display: none;
+    align-items: center;
+}
+
+#close {
+    display: none;
+}
+
 /*! SECTION LEFT SIDE TEXT */
 
 #left-side-text {
@@ -558,21 +567,89 @@ footer .copyright p {
 /* ! MEDIA  */
 
 @media (max-width: 768px) {
+    .section-p1 {
+        padding: 20px;
+    }
     #navbar {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
         position: fixed;
-        top: 0;
+        top: 0px;
         right: -300px;
-        height: 100vh;
+        height: 40vh;
         width: 300px;
         background-color: #e3e6f3;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        transition: 0.3s;
     }
-
     #navbar li {
+        margin-top: 0px;
         margin-bottom: 25px;
     }
+    #navbar li:first-child {
+        margin-top: 40px;
+    }
+    #mobile-menu {
+        display: flex;
+        align-items: center;
+    }
+    #mobile-menu i {
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+    #navbar.active {
+        right: 0;
+    }
+    #close {
+        position: absolute;
+        top: 36px;
+        right: 83px;
+        color: #222;
+        font-size: 30px;
+        display: initial;
+    }
+    #lg-bag {
+        display: none;
+    }
+    #left-side-text {
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 30% right 30%;
+    }
+    #features {
+        justify-content: center;
+    }
+    #features .fe-box {
+        margin: 15px;
+    }
+    #banner {
+        height: 20vh;
+    }
+    #main-banners h3 {
+        font-size: 22px;
+    }
+    #sub-banners {
+        justify-content: space-around;
+        padding: 0 20px;
+    }
+
+    #sub-banners .banners-box {
+        margin: 0;
+        padding: 0;
+        height: 30vh;
+    }
+    #sub-banners .banners-box h2 {
+        font-size: 16px;
+        text-align: center;
+    }
+    #sub-banners .banners-box h3 {
+        font-size: 16px;
+        text-align: center;
+        margin: 0 auto;
+    }
+   
+   
 }
