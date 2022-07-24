@@ -60,7 +60,7 @@
 
     <!-- ! SECTION PRODUCT ITEM -->
     <section id="product-details" class="section-p1">
-      <div class="item-details-img">
+      <div class="item-details-img" id="item-details-img">
         <img
           src="./images/products/f1.jpg"
           alt="image of product"
@@ -73,7 +73,7 @@
               src="./images/products/f1.jpg"
               alt="image of style product "
               width="100%"
-              id="item-image-sub"
+              class="item-image-sub"
             />
           </div>
           <div class="image-item">
@@ -81,7 +81,7 @@
               src="./images/products/f2.jpg"
               alt="image of style product "
               width="100%"
-              id="item-image-sub"
+              class="item-image-sub"
             />
           </div>
           <div class="image-item">
@@ -89,7 +89,7 @@
               src="./images/products/f3.jpg"
               alt="image of style product "
               width="100%"
-              id="item-image-sub"
+              class="item-image-sub"
             />
           </div>
           <div class="image-item">
@@ -97,7 +97,7 @@
               src="./images/products/f4.jpg"
               alt="image of style product "
               width="100%"
-              id="item-image-sub"
+              class="item-image-sub"
             />
           </div>
         </div>
@@ -115,11 +115,84 @@
           <option>S</option>
         </select>
         <input type="number" value="1">
-        <button>Add to Cart</button>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas totam suscipit eos quibusdam ipsam ullam corrupti, in aliquam doloribus rerum error aperiam delectus natus quo eveniet repellendus assumenda id distinctio veniam commodi ut accusamus quasi pariatur veritatis! Modi, atque in.</p>
+        <button class="btn-primary">Add to Cart</button>
+        <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas totam suscipit eos quibusdam ipsam ullam corrupti, in aliquam doloribus rerum error aperiam delectus natus quo eveniet repellendus assumenda id distinctio veniam commodi ut accusamus quasi pariatur veritatis! Modi, atque in.</span>
       </div>
     </section>
     <!-- ? END SECTION PRODUCT ITEM -->
+
+    <!-- ! SECTION FEATURED PRODUCTS -->
+    <section id="product-sub" class="section-p1">
+      <h2>Featured Products</h2>
+      <p>Autum Collection New Stylish Design</p>
+      <div class="product-container">
+        <div class="product-item" onclick="window.location.href='product-details.html';">
+          <img src="images/products/n1.jpg" alt="product 1" />
+          <div class="product-description">
+            <span>Addidas</span>
+            <h4>Cartoon Astronaut T-Shirt</h4>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$75</h4>
+          </div>
+          <a href="#"><i class="fa fa-cart-shopping cart-icon"></i></a>
+        </div>
+        <div class="product-item" onclick="window.location.href='product-details.html';">
+          <img src="images/products/n2.jpg" alt="product 2" />
+          <div class="product-description">
+            <span>Addidas</span>
+            <h4>Cartoon Astronaut T-Shirt</h4>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$75</h4>
+          </div>
+          <a href="#"><i class="fa fa-cart-shopping cart-icon"></i></a>
+        </div>
+        <div class="product-item" onclick="window.location.href='product-details.html';">
+          <img src="images/products/n3.jpg" alt="product 3" />
+          <div class="product-description">
+            <span>Addidas</span>
+            <h4>Cartoon Astronaut T-Shirt</h4>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$75</h4>
+          </div>
+          <a href="#"><i class="fa fa-cart-shopping cart-icon"></i></a>
+        </div>
+        <div class="product-item" onclick="window.location.href='product-details.html';">
+          <img src="images/products/n4.jpg" alt="product 4" />
+          <div class="product-description">
+            <span>Addidas</span>
+            <h4>Cartoon Astronaut T-Shirt</h4>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$75</h4>
+          </div>
+          <a href="#"><i class="fa fa-cart-shopping cart-icon"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- ? END SECTION  FEATURED PRODUCTS -->
 
     <!-- ! SECTION SIGNUP BANNER -->
     <section id="signup-banner" class="section-p1 section-m1">
@@ -186,7 +259,9 @@
     </footer>
     <!-- ? END FOOTER -->
 
+
     <!-- ! CUSTOM JAVASCRIP -->
     <script src="js/main.js"></script>
+
   </body>
 </html>
