@@ -756,12 +756,12 @@ footer .copyright p {
 }
 
 .image-item {
-    flex-basis: 28%;
+    flex-basis: 33%;
     cursor: pointer;
 }
 
 #product-details .item-details-img {
-    width: 80%;
+    width: 100%;
     padding-top: 30px;
 }
 
@@ -821,6 +821,15 @@ footer .copyright p {
     #product-details .item-details-img {
     width: 100%;
     }
-}   #product-details .item-details-text  {
-        margin: 0;
+    #product-details .item-details-text  {
+        margin: 0 0 0 20px;
+    }
+    #product-details .item-details-text h4,
+    #product-details .item-details-text h3,
+    #product-details .item-details-text h2 {
+        padding: 0;
+    }
+    #product-details .item-details-text span {
+        font-size: 16px;
+    }
 }
