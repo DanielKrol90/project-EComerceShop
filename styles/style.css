@@ -188,19 +188,19 @@ button.btn-secondary {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
 #features .fe-box {
-    width: 180px;
-    height: 200px;
+    width: 240px;
+    height: 240px;
     text-align: center;
     padding: 25px 15px;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.1);
     border: 1px solid #cce7d0;
     border-radius: 4px;
-    margin: 15px 0;
+    margin: 15px;
 }
 
 #features .fe-box:hover {
@@ -239,12 +239,12 @@ button.btn-secondary {
 
 /* ! SECTION PRODUCTS */
 
-#product h2,
-#product p {
+#product-main h2, #product-sub h2,
+#product-main p, #product-sub p {
     text-align: center;
 }
 
-#product .product-container {
+.product-container {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
@@ -252,7 +252,7 @@ button.btn-secondary {
     flex-wrap: wrap;
 }
 
-#product .product-item {
+.product-item {
     width: 23%;
     min-width: 250px;
     padding: 10px 12px;
@@ -265,41 +265,41 @@ button.btn-secondary {
     margin-top: 30px;
 }
 
-#product .product-item:hover {
+.product-item:hover {
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.3)
 }
 
-#product .product-item img {
+.product-item img {
     width: 100%;
     border-radius: 20px;
 }
 
-#product .product-item .product-description {
+.product-item .product-description {
     text-align: start;
     padding: 10px 0;
 }
 
-#product .product-item .product-description span {
+.product-item .product-description span {
     color: #91d6ec;
     font-size: 16px;
 }
 
-#product .product-item .product-description h4 {
+.product-item .product-description h4 {
     padding-top: 8px;
     color: 1a1a1a;
     font-size: 16px;
 }
 
-#product .product-item .product-description h4:nth-child(4) {
+.product-item .product-description h4:nth-child(4) {
     color: #17b664;
 }
 
-#product .product-item .product-description i {
+ .product-item .product-description i {
     font-size: 16px;
     color: #ffe524;
 }
 
-#product .product-item .cart-icon {
+.product-item .cart-icon {
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -409,7 +409,7 @@ background-image: url("../images/banner/b17.jpg");
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    max-width: 29%;
+    width: 29.5%;
     margin: 20px;
     height: 20vh;
     background-size: cover;
@@ -652,4 +652,17 @@ footer .copyright p {
     }
    
    
+}
+
+@media (max-width: 1200px) {
+
+    #features .fe-box {
+        width: 180px;
+        height: 180px;
+    }
+    #sub-banners .banners-box {
+        margin: 0;
+        padding: 0;
+        height: 30vh;
+    }
 }
