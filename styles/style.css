@@ -984,8 +984,18 @@ footer .copyright p {
     #blog .blog-details {
         width: 100%;
     } 
-   
-}
+  /* about page */
+    #about-header {
+    flex-direction: column;    
+    }
+    #about-header > img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #about-header h2 {
+        text-align: center;
+    }
+}   
 
 @media (max-width: 576px) {
 /* index page */
@@ -1026,4 +1036,19 @@ footer .copyright p {
     #blog .blog-details {
         width: 100%;
     }
-}   
+/* about page */
+    #about-header {
+        flex-direction: column;
+    }
+    #about-header > img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #about-header div {
+        padding-left: 0px;
+    }
+    #about-app .video {
+        width: 100%;
+    }
+}
+
