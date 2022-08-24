@@ -132,7 +132,7 @@ button.btn-secondary {
 #navbar li a.active::after,
 #navbar li a:hover::after {
     content: "";
-    width: 30%;
+    width: 50%;
     height: 4px;
     background-color:#088178;
     position: absolute;
@@ -1026,11 +1026,18 @@ fieldset {
 
 
 
+/** SHOPCART PAGE  */
 
+#shop-cart table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
 
-
-
-
+#shop-cart table img {
+    width: 70px;
+}
 
 
 
