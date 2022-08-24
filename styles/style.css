@@ -48,9 +48,9 @@ p {
 button.btn-primary {
     font-size: 16px;
     font-weight: 600;
-    padding: 15px 30px;
-    color: #000;
-    background-color: #fff;
+    padding: 15px;
+    color: #fff;
+    background-color: #17b664;
     border-radius: 5px;
     cursor: pointer;
     border: none;
@@ -67,7 +67,7 @@ button.btn-primary:hover {
 button.btn-secondary {
     font-size: 13px;
     font-weight: 600;
-    padding: 11px 18px;
+    padding: 10px 18px;
     color: #fff;
     background-color: transparent;
     border-radius: 5px;
@@ -91,6 +91,7 @@ button.btn-secondary {
     width: 150px;
     height: 60px;
     padding-left: 30px;
+    padding-top: 10px;
 }
 
 #header {
@@ -144,6 +145,7 @@ button.btn-secondary {
     display: none;
     align-items: center;
     padding-right: 30px;
+    
 }
 
 #close {
@@ -261,8 +263,10 @@ button.btn-secondary {
 
 /**  SECTION PRODUCTS */
 
-#product-main h2, #product-sub h2,
-#product-main p, #product-sub p {
+#product-main h2, 
+#product-sub h2,
+#product-main p, 
+#product-sub p {
     text-align: center;
 }
 
@@ -519,13 +523,6 @@ background-image: url("../images/banner/b17.jpg");
     margin-right: 20px;
 }
 
-#signup-banner button {
-    background-color: #088178;
-    color: #fff;
-    white-space: nowrap;
-}
-
-
 
 
 
@@ -608,7 +605,7 @@ footer .copyright p {
 
 #page-header.page-header-shop {
     background-image: url("../images/banner/b1.jpg");
-    height: 50vh;
+    height: 40vh;
 }
 
 #page-header h1,
@@ -733,7 +730,7 @@ footer .copyright p {
 
 #page-header.page-header-blog {
     background-image: url('../images/banner/b19.jpg');
-    height: 50vh;
+    height: 40vh;
 }
 
 #blog {
@@ -808,7 +805,7 @@ footer .copyright p {
 
 #page-header.page-header-about {
     background-image: url(../images/about/banner.png);
-    height: 50vh;
+    height: 40vh;
 }
 
 #about-header {
@@ -853,7 +850,6 @@ footer .copyright p {
 #form-details {
     display: flex;
     justify-content: space-around;
-    margin: 30px;
     padding: 40px;
     background-image: url(../images/about/banner.png);
 }
@@ -883,22 +879,22 @@ footer .copyright p {
     padding-bottom: 15px;
 }
 
-#contact-details > div.details > ul {
+#contact-details > .details > ul {
     list-style: none;
 }
 
-#contact-details > div.details > ul > li {
+#contact-details > .details > ul > li {
     display: flex;
     padding: 10px 0;
 }
 
-#contact-details > div.details > ul > li > i {
+#contact-details > .details > ul > li > i {
     font-size: 14px;
     padding-right: 22px;
     padding-top: 5px;
 }
 
-#contact-details > div.details > ul > li > p {
+#contact-details > .details > ul > li > p {
     margin: 0;
     font-size: 16px;
 }
@@ -947,7 +943,10 @@ fieldset {
 	width: 100%;
 }
 
-#contact-form input[type="text"], #contact-form input[type="email"], #contact-form input[type="tel"], #contact-form textarea {
+#contact-form input[type="text"], 
+#contact-form input[type="email"], 
+#contact-form input[type="tel"], 
+#contact-form textarea {
 	width:100%;
 	border:1px solid #CCC;
 	background:#FFF;
@@ -955,7 +954,11 @@ fieldset {
 	padding:10px;
 }
 
-#contact-form input[type="text"]:hover, #contact-form input[type="email"]:hover, #contact-form input[type="tel"]:hover, #contact-form input[type="url"]:hover, #contact-form textarea:hover {
+#contact-form input[type="text"]:hover, 
+#contact-form input[type="email"]:hover, 
+#contact-form input[type="tel"]:hover, 
+#contact-form input[type="url"]:hover, 
+#contact-form textarea:hover {
 	transition:border-color 0.3s ease-in-out;
 	border:1px solid rgb(161, 142, 142);
 }
@@ -966,15 +969,15 @@ fieldset {
     resize:none;
 }
 
-#contact-form input:focus, #contact-form textarea:focus {
+#contact-form input:focus, 
+#contact-form textarea:focus {
 	outline:0;
 	border:1px solid rgb(0, 0, 0);
 }
 
-#contact-form .btn-primary.change-color-btn {
-    background-color: #088178;
-    color: #FFF;
-    display: flex;
+#contact-form .btn-primary {
+    width: 40%;
+    display: block;
     margin: 0 auto;
 }
 
@@ -1028,6 +1031,10 @@ fieldset {
 
 /** SHOPCART PAGE  */
 
+#shop-cart {
+    overflow-x: auto;
+}
+
 #shop-cart table {
     width: 100%;
     border-collapse: collapse;
@@ -1036,21 +1043,97 @@ fieldset {
 }
 
 #shop-cart table img {
-    width: 70px;
+    width: 100px;
 }
 
+#shop-cart table td:nth-child(1), 
+#shop-cart table td:nth-child(2) {
+    width: 100px;
+    text-align: center;
+}
 
+#shop-cart table td:nth-child(3) {
+    width: 200px;
+    text-align: center;
+}
 
+#shop-cart table td:nth-child(4), 
+#shop-cart table td:nth-child(5), 
+#shop-cart table td:nth-child(6) {
+    width: 100px;
+    text-align: center;
+}
 
+#shop-cart table td:nth-child(5) input {
+    width: 70px;
+    padding: 10px 5px 10px 10px;
+    text-align: center;
+}
 
+#shop-cart > table > thead {
+    border: 1px solid #afb9c7;
+    border-left: none;
+    border-right: none;
+}
 
+#shop-cart table thead td {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 18px;
+}
 
+#shop-cart table tbody tr td {
+    padding-top: 15px;
+}
 
+#shop-cart table tbody td {
+    font-size: 14px;
+}
 
+#shop-add {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+#coupon {
+    width: 50%;
+    margin-bottom: 30px;
+} 
 
+#coupon h3, 
+#subtotal h3 {
+    padding-bottom: 15px;
+}
 
+#coupon input {
+    padding: 14px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border:  1px solid #818ea0;
+}
 
+#subtotal {
+    width: 380px;
+    margin-bottom: 30px;
+    border: 1px solid #818ea0;
+    padding: 20px;
+}
+
+#subtotal table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#subtotal table td {
+    width: 50%;
+    border: 1px solid #818ea0;
+    padding: 10px;
+    font-size: 14px;
+}
 
 
 
@@ -1136,9 +1219,9 @@ fieldset {
     }
     #close {
         position: absolute;
-        top: -302px;
-        right: -176px;
-        color: #222;
+        top: -305px;
+        right: -55px;
+        color: rgb(206, 23, 23);
         font-size: 30px;
         display: initial;
     }
@@ -1336,5 +1419,15 @@ fieldset {
         margin: 10px auto;
         width: 90%;
     }
+/*  shopcart page */
+    #shop-add {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #shop-add #coupon {
+    width: 100%;
+    }
+    #shop-add #subtotal {
+        width: 100%;
+    }
 }
-
