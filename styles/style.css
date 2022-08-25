@@ -163,7 +163,7 @@ button.btn-secondary {
 /**    SECTION PAGE-HEADER */
 
 #page-header {
-    background-image: url("/images/header.png");
+    background-image: url("./images/header.png");
     height: 90vh;
     width: 100%;
     background-size: cover;
