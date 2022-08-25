@@ -530,15 +530,16 @@ background-image: url("images/banner/b17.jpg");
 
 /** SECTION FOOTER */
 
-footer .footer-logo {
-    width: 150px;
-    margin-bottom: 30px;
-}
-
 footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+footer .footer-logo {
+    width: 120px;
+    height: 100px;
+    margin: 0px;
 }
 
 footer  .col {
@@ -1365,6 +1366,10 @@ fieldset {
     }
     #page-header {
         padding: 10px;
+    }
+    footer .footer-logo {
+        display: block;
+        margin: 0 auto;
     }
 /* blog page */
     #blog {
