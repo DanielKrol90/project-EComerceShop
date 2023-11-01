@@ -2,7 +2,7 @@ Project-EComerceShop for learning purpose. Using html/css and javascript.
 Using display:flex and learning how to use it properly. 
 Adding google.map with pinned location and iframe video.
 
-link to page: https://e-commerce-fake.netlify.app/blog.html
+LINK <a href="https://ecomercefakesite.netlify.app"> TO SEE </a>
 
 
 ![image](https://user-images.githubusercontent.com/93492863/187267330-62a423cf-11e9-4eaf-aabb-d49ac38e89d3.png)
